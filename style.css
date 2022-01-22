@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+:root{
+  --virtuateca: linear-gradient(90deg, #1488CC, #2B32B2);
+
+  --beautysalon:linear-gradient(90deg, #EE82EE, #C71585);
+
+  --LoveCandy: linear-gradient( #FFFF00, #e65c00) ; 
+
+  --travel: linear-gradient(90deg, #FF8C00, #FF4500) ; 
+  
+  --BazzarMichele: linear-gradient( #F00000, #DC281E) ;
+  
+   --brecia: linear-gradient(90deg, #fff200, #dcd219) ; 
+  
+  --spotify: linear-gradient(90deg, #FF00BF,  #7c25f8) ;
+  
+  /* --box: linear-gradient(90deg, #FF8C00, #FF4500) ; */
+  
+  /* --box: linear-gradient(90deg, #FF8C00, #FF4500) ; */
+
+
+
+  --finans:#ffc107;
+
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .2s linear;
+  text-decoration: none;
+}
+
+body{
+  background: #222;
+  font-family: "Poppins",sans-serif ;
+}
+h1{
+  font-size: 3.5rem;
+  margin-top: .6rem;
+  color: #fff;
+  text-align: center;
+}
+h1:hover{
+  color: darkgray;
+}
+
+.gallery{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 1rem;
+}
+
+ .box {
+  height: 12.5rem;
+  width: 20rem;
+  margin: 1rem;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 3px 5px #000;
+}
+
+.box a img{
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+}
+.gallery a img:hover{
+transform: scale(1.4);
+}
+
+.subtitle{
+  display: grid;
+  place-items:center ;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+h3:hover{
+  color: darkgray;
+}
+
+
+
+
+
+.Virtuateca:hover{
+  background: var(--virtuateca);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.Beauty-salon:hover{
+  background: var(--beautysalon);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.Love-Candy:hover{
+  background: var(--LoveCandy);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.BazzarMichele:hover{
+  background: var(--BazzarMichele);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.Travel:hover{
+  background: var(--travel);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.Brecia:hover{
+  background: var(--brecia);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+
+
+
+.spotify:hover{
+  background: var(--spotify);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* 
+
+.xxx:hover{
+  background: var(--travel);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+ */
+
+
+
+.Finans:hover{
+  color: var(--finans);
+}
+
+
+/* @media (min-width: 1023px){
+  .gallery{
+    margin: 15rem auto;
+  }
+  .subtitle
+} */
+@media (min-width: 768px){
+  h3{
+    font-size:1.8rem ;
+  }
+}
+@media (max-width: 500px){
+  
+  h1{
+    font-size: 2rem;
+  }
+
+ h3{
+   font-size:1.5rem ;
+ }
+}
+
+@media (max-width: 350px){
+  h1{
+    font-size: 1.5rem;
+  }
+  h3{
+    font-size: 1.1rem;
+  }
+}
